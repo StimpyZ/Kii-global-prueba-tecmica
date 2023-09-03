@@ -41,7 +41,7 @@ export default function Blockchain () {
                 Exchange Excellence
                 </h2>
                 <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-                We have our own blockchain network and we have the best exchange platform between currencies and cryptocurrencies. KII's currency and blockchain can provide its users with secure and instant transactions at a cost of less than 1%, regardless of the amount transferred.
+                KII's currency and blockchain can provide its users with secure and instant transactions at a cost of less than 1%, regardless of the amount transferred.
                 </p>
 
                 <div className="flex flex-row flex-wrap sm:mt-10 mt-6">

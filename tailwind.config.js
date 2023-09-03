@@ -9,7 +9,8 @@ module.exports = {
                 secondary: '#0B2073',
                 fucsia: '#5B3D7D',
                 aquamarine: '#009FE3',
-                shadowBlue: 'rgba(9, 151, 124, 0.1)'
+                shadowBlue: 'rgba(9, 151, 124, 0.1)',
+                dark: '#0a0618'
             },
             fontFamily: {
                 gothan: ['Gotham', 'sans-serif']

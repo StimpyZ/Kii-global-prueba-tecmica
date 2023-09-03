@@ -14,7 +14,7 @@ export const particleConfig = {
             },
             onHover: {
                 enable: true,
-                mode: 'repulse'
+                mode: 'grab'
             },
             resize: true
         },
@@ -22,7 +22,7 @@ export const particleConfig = {
             push: {
                 quantity: 90
             },
-            repulse: {
+            grab: {
                 distance: 200,
                 duration: 0.4
             }
@@ -49,7 +49,7 @@ export const particleConfig = {
                 default: 'bounce'
             },
             random: false,
-            speed: 1,
+            speed: 1.3,
             straight: false
         },
         number: {
