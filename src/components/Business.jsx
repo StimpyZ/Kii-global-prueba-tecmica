@@ -3,7 +3,7 @@ import { features } from '../constants'
 import Button, { ButtonLogIn } from './Button'
 import { motion } from 'framer-motion'
 
-const FeaturedCard = ({ icon, title, content, index }) => {
+const FeaturedCard = ({ icon, title, content }) => {
 
     return (
         <motion.div
@@ -15,9 +15,7 @@ const FeaturedCard = ({ icon, title, content, index }) => {
                 hidden: { opacity: 0, x: 50 },
                 visible: { opacity: 1, x: 0 }
             }}
-            className={`flex flex-row p-6 rounded-[20px] ${
-                index !== features.length - 1 ? 'mb-1' : 'mb-0'
-            } feature-card`}
+            className={'flex flex-row p-6 rounded-[20px] mb-1 last-of-type:mb-0 feature-card'}
         >
             <div
                 className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-shadowBlue`}
@@ -29,10 +27,10 @@ const FeaturedCard = ({ icon, title, content, index }) => {
                 />
             </div>
             <div className="flex-1 flex flex-col ml-3">
-                <h4 className="font-gothan font-semibold text-white text-[23px] leading-[23.4px] mb-2">
+                <h1 className="font-gothan font-bold text-white text-[23px] leading-[23.4px] mb-2">
                     {title}
-                </h4>
-                <p className="font-gothan font-normal text-gray-300 text-[16px] leading-[24px]">
+                </h1>
+                <p className="font-gotham-book text-white text-[16px] leading-[24px]">
                     {content}
                 </p>
             </div>
@@ -70,8 +68,8 @@ export default function Business () {
                 </div>
             </motion.div>
             <div className={`${layout.sectionImg} flex-col`}>
-                {features.map((feature, index) => (
-                    <FeaturedCard {...feature} index={index} key={feature.id} />
+                {features.map(feature => (
+                    <FeaturedCard {...feature} key={feature.id} />
                 ))}
             </div>
         </section>

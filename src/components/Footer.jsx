@@ -10,7 +10,7 @@ export default function Footer () {
             >
                 <div className="flex-[1] flex flex-col justify-start mr-10">
                     <img
-                        src="https://kiiglobal.io/wp-content/uploads/2023/06/KII-Logo-Web-ORG.gif"
+                        src="/kilogo.gif"
                         alt="logo"
                         className="w-[55px] h-[37px]"
                     />
@@ -26,18 +26,14 @@ export default function Footer () {
                                 'flex flex-col ss:my-0 my-4 min-w-[150px]'
                             }
                         >
-                            <h4 className="font-gothan font-medium text-[18px] leading-[27px] text-white">
+                            <h1 className="font-gothan text-[18px] leading-[27px] text-white">
                                 {footer.title}
-                            </h4>
+                            </h1>
                             <ul className="list-none mt-4">
-                                {footer.links.map((link, index) => (
+                                {footer.links.map(link => (
                                     <li
                                         key={link.id}
-                                        className={`font-gothan font-normal text-[16px] leading-[24px] text-gray-500 hover:text-secondary cursor-pointer ${
-                                            index !== footer.links.length - 1
-                                                ? 'mb-4'
-                                                : 'mb-0'
-                                        }`}
+                                        className={'font-gotham-book text-[16px] leading-[24px] text-white hover:text-secondary cursor-pointer mb-4 last-of-type:mb-0'}
                                     >
                                         {link.name}
                                     </li>
@@ -49,19 +45,17 @@ export default function Footer () {
             </div>
 
             <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
-                <p className="font-gothan font-normal text-center text-[18px] leading-[27px] text-white">
+                <p className="font-gothan font-bold text-center text-[18px] leading-[27px] text-white">
                     Copyright Ⓒ 2022 KIIGlobal. All Rights Reserved.
                 </p>
 
                 <div className="flex flex-row md:mt-0 mt-6">
-                    {socialMedia.map((social, index) => (
+                    {socialMedia.map(social => (
                         <img
                             key={social.id}
                             src={social.icon}
                             alt={social.id}
-                            className={`w-[21px] h-[21px] object-contain cursor-pointer ${
-                                index !== socialMedia.length - 1 ? 'mr-6' : 'mr-0'
-                            }`}
+                            className={'w-[21px] h-[21px] object-contain cursor-pointer mr-6 last-of-type:mr-0'}
                             onClick={() => window.open(social.link)}
                         />
                     ))}

@@ -21,9 +21,9 @@ export default function Stats () {
                             className="font-gothan font-semibold xs:text-[40.89px] text-[30.89px] xs:leading-[53.16px] leading-[43.16px] text-white"
                         />
                         {stat.text && (
-                            <h4 className="font-gothan font-semibold xs:text-[40.89px] text-[30.89px] xs:leading-[53.16px] leading-[43.16px] text-white ml-4">
+                            <h1 className="font-gothan font-semibold xs:text-[40.89px] text-[30.89px] xs:leading-[53.16px] leading-[43.16px] text-white ml-4">
                                 {stat.text}
-                            </h4>
+                            </h1>
                         )}
                     </div>
                     <p className="font-gothan font-normal xs:text-[20.45px] text-[15.45px] xs:leading-[26.58px] leading-[21.58px] text-gradient uppercase ml-3">
