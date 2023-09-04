@@ -12,7 +12,7 @@ export default function CTA () {
                 </p>
             </div>
 
-            <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10 relative z-50`}>
+            <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10 relative z-50 overflow-x-hidden`}>
                 <div className="absolute z-[1] w-[80%] h-[80%] -right-[50%] rounded-full purple__gradient bottom-40" />
                 <Button />
             </div>

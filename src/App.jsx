@@ -66,7 +66,6 @@ function App () {
                         <Blockchain />
                         <CryptoKII />
                         <CTA />
-                        {/* <Footer /> */}
                     </div>
                 </div>
             </main>
