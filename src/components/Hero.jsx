@@ -1,7 +1,7 @@
 import styles from '../config/styles'
 import robot from '../assets/robot.webp'
 import GetStarted from './GetStarted'
-import ParticleContainer from './ParticleContainer'
+// import ParticleContainer from './ParticleContainer'
 
 export default function Hero () {
 
@@ -10,7 +10,7 @@ export default function Hero () {
             id="home"
             className={`flex md:flex-row flex-col ${styles.paddingY} relative`}
         >
-            <ParticleContainer />
+            {/* <ParticleContainer /> */}
             <div
                 className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 relative z-50`}
             >
