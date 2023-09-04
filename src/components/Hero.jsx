@@ -8,7 +8,7 @@ export default function Hero () {
     return (
         <section
             id="home"
-            className={`flex md:flex-row flex-col ${styles.paddingY} relative`}
+            className={`flex lg:flex-row flex-col ${styles.paddingY} relative`}
         >
             <ParticleContainer />
             <div
@@ -16,7 +16,7 @@ export default function Hero () {
             >
                 <div className="absolute z-[1] w-[20%] h-[30%] rounded-full fucsia__gradient top-40 -left-9" />
                 <div className="flex flex-row justify-between items-center w-full">
-                    <h1 className="flex-1 font-gothan font-semibold ss:text-[72px] text-[38px] text-white ss:leading-[100.8px] leading-[55px] block">
+                    <h1 className="flex-1 font-gothan font-semibold ss:text-[72px] text-[38px] text-white ss:leading-[100.8px] leading-[55px] w-full">
                         <span className="whitespace-nowrap">
                             First Colombian
                         </span>{' '}
@@ -30,7 +30,7 @@ export default function Hero () {
                         <GetStarted />
                     </div>
                 </div>
-                <h1 className="flex-1 font-gothan font-semibold ss:text-[72px] text-[38px] text-white ss:leading-[100.8px] leading-[55px] block">
+                <h1 className="font-gothan font-semibold ss:text-[68px] text-[38px] text-white ss:leading-[100.8px] leading-[55px] w-full">
                     Ecosystem.
                 </h1>
                 <p className={`${styles.paragraph} max-w-[500px] mt-5`}>
