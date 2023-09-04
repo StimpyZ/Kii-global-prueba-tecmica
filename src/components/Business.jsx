@@ -27,10 +27,10 @@ const FeaturedCard = ({ icon, title, content }) => {
                 />
             </div>
             <div className="flex-1 flex flex-col ml-3">
-                <h4 className="font-gothan font-bold text-white text-[23px] leading-[23.4px] mb-2">
+                <h1 className="font-gothan font-bold text-white text-[23px] leading-[23.4px] mb-2">
                     {title}
-                </h4>
-                <p className="font-gotham-book text-gray-300 text-[16px] leading-[24px]">
+                </h1>
+                <p className="font-gotham-book text-white text-[16px] leading-[24px]">
                     {content}
                 </p>
             </div>

@@ -33,7 +33,7 @@ export default function Footer () {
                                 {footer.links.map(link => (
                                     <li
                                         key={link.id}
-                                        className={'font-gotham-book text-[16px] leading-[24px] text-gray-500 hover:text-secondary cursor-pointer mb-4 last-of-type:mb-0'}
+                                        className={'font-gotham-book text-[16px] leading-[24px] text-white hover:text-secondary cursor-pointer mb-4 last-of-type:mb-0'}
                                     >
                                         {link.name}
                                     </li>
