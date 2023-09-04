@@ -26,14 +26,14 @@ export default function Footer () {
                                 'flex flex-col ss:my-0 my-4 min-w-[150px]'
                             }
                         >
-                            <h4 className="font-gothan font-medium text-[18px] leading-[27px] text-white">
+                            <h4 className="font-gothan text-[18px] leading-[27px] text-white">
                                 {footer.title}
                             </h4>
                             <ul className="list-none mt-4">
                                 {footer.links.map(link => (
                                     <li
                                         key={link.id}
-                                        className={'text-[16px] leading-[24px] text-gray-500 hover:text-secondary cursor-pointer mb-4 last-of-type:mb-0'}
+                                        className={'font-gotham-book text-[16px] leading-[24px] text-gray-500 hover:text-secondary cursor-pointer mb-4 last-of-type:mb-0'}
                                     >
                                         {link.name}
                                     </li>

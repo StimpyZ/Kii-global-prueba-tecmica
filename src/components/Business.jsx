@@ -30,7 +30,7 @@ const FeaturedCard = ({ icon, title, content }) => {
                 <h4 className="font-gothan font-bold text-white text-[23px] leading-[23.4px] mb-2">
                     {title}
                 </h4>
-                <p className="text-gray-300 text-[16px] leading-[24px]">
+                <p className="font-gotham-book text-gray-300 text-[16px] leading-[24px]">
                     {content}
                 </p>
             </div>

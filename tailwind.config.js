@@ -13,7 +13,8 @@ module.exports = {
                 dark: '#0a0618'
             },
             fontFamily: {
-                gothan: ['Gotham', 'sans-serif']
+                gothan: ['Gotham', 'sans-serif'],
+                'gotham-book': ['Gotham-Book', 'sans-serif']
             }
         },
         screens: {
