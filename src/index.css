@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'Gotham';
+    src: url('/fonts/gotham-bold-webfont.woff2') format('woff2');
+}
 :root {
     --black-gradient: linear-gradient(
         144.39deg,
@@ -24,7 +28,7 @@
         #58c9fa 42.04%,
         #3dc0f8 55.12%,
         #10b0f5 71.54%,
-        #009FE3 100%
+        #009fe3 100%
     );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -40,7 +44,7 @@
         #58c9fa 42.04%,
         #3dc0f8 55.12%,
         #10b0f5 71.54%,
-        #009FE3 100%
+        #009fe3 100%
     );
 }
 
@@ -52,7 +56,7 @@
         #372a63 42.04%,
         #281b52 55.12%,
         #1e1244 71.54%,
-        #0C071D 100%
+        #0c071d 100%
     );
 }
 
@@ -61,7 +65,7 @@
         144.39deg,
         #ffffff -278.56%,
         #6d6d6d -78.47%,
-        #0C071D 91.61%
+        #0c071d 91.61%
     );
 }
 
