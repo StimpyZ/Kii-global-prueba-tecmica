@@ -49,7 +49,7 @@ export const particleConfig = {
                 default: 'bounce'
             },
             random: false,
-            speed: 1.3,
+            speed: 1,
             straight: false
         },
         number: {
