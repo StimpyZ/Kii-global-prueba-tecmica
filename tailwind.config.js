@@ -25,10 +25,5 @@ module.exports = {
             xl: '1700px'
         }
     },
-    corePlugins: {
-        fontFamily: {
-            gothan: ['Gotham', 'sans-serif', { 'font-display': 'swap' }]
-        }
-    },
     plugins: []
 }
