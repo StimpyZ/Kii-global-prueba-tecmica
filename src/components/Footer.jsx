@@ -10,7 +10,7 @@ export default function Footer () {
             >
                 <div className="flex-[1] flex flex-col justify-start mr-10">
                     <img
-                        src="https://kiiglobal.io/wp-content/uploads/2023/06/KII-Logo-Web-ORG.gif"
+                        src="/kilogo.gif"
                         alt="logo"
                         className="w-[55px] h-[37px]"
                     />

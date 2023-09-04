@@ -10,7 +10,7 @@ export default function Navbar () {
     return (
         <nav className='w-full flex py-6 justify-between items-center navbar'>
             <div className='flex items-center gap-4'>
-                <img src='https://kiiglobal.io/wp-content/uploads/2023/06/KII-Logo-Web-ORG.gif' alt='logo' className='w-[55px] h-[37px]' />
+                <img src='/kilogo.gif' alt='logo' className='w-[55px] h-[37px]' />
                 <h1 className='text-white font-gothan text-xl font-bold'>KII Global</h1>
             </div>
             <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
