@@ -1,7 +1,7 @@
 import styles from '../config/styles'
 import robot from '../assets/robot.webp'
 import GetStarted from './GetStarted'
-// import ParticleContainer from './ParticleContainer'
+import ParticleContainer from './ParticleContainer'
 
 export default function Hero () {
 
@@ -10,13 +10,13 @@ export default function Hero () {
             id="home"
             className={`flex md:flex-row flex-col ${styles.paddingY} relative`}
         >
-            {/* <ParticleContainer /> */}
+            <ParticleContainer />
             <div
                 className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 relative z-50`}
             >
                 <div className="absolute z-[1] w-[20%] h-[30%] rounded-full fucsia__gradient top-40 -left-9" />
                 <div className="flex flex-row justify-between items-center w-full">
-                    <h1 className="flex-1 font-gothan font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] block">
+                    <h1 className="font-gothan font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
                         <span className="whitespace-nowrap">
                             First Colombian
                         </span>{' '}
@@ -46,7 +46,7 @@ export default function Hero () {
                 <img
                     src={robot}
                     alt="robot"
-                    className="w-[100%] h-[100%] relative z-[5]"
+                    className="w-full"
                 />
                 <div className="absolute z-[2] w-[80%] h-[80%] rounded-full purple__gradient top-20" />
                 <div className="absolute z-[0] w-[50%] h-[50%] right-20 top-5 purple__gradient" />
